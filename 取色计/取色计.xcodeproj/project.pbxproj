@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFF3549A21C3A39C00DD59C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF3549921C3A39C00DD59C5 /* AppDelegate.m */; };
+		DFF3549D21C3A39C00DD59C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF3549C21C3A39C00DD59C5 /* ViewController.m */; };
+		DFF354A021C3A39C00DD59C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF3549E21C3A39C00DD59C5 /* Main.storyboard */; };
+		DFF354A221C3A39F00DD59C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF354A121C3A39F00DD59C5 /* Assets.xcassets */; };
+		DFF354A521C3A39F00DD59C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF354A321C3A39F00DD59C5 /* LaunchScreen.storyboard */; };
+		DFF354A821C3A39F00DD59C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF354A721C3A39F00DD59C5 /* main.m */; };
+		DFF354B221C3A39F00DD59C5 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF354B121C3A39F00DD59C5 /* ___Tests.m */; };
+		DFF354BD21C3A39F00DD59C5 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF354BC21C3A39F00DD59C5 /* ___UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFF354AE21C3A39F00DD59C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFF3548D21C3A39C00DD59C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFF3549421C3A39C00DD59C5;
+			remoteInfo = "取色计";
+		};
+		DFF354B921C3A39F00DD59C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFF3548D21C3A39C00DD59C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFF3549421C3A39C00DD59C5;
+			remoteInfo = "取色计";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFF3549521C3A39C00DD59C5 /* 取色计.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "取色计.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF3549821C3A39C00DD59C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFF3549921C3A39C00DD59C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFF3549B21C3A39C00DD59C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFF3549C21C3A39C00DD59C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFF3549F21C3A39C00DD59C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFF354A121C3A39F00DD59C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFF354A421C3A39F00DD59C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFF354A621C3A39F00DD59C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFF354A721C3A39F00DD59C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFF354AD21C3A39F00DD59C5 /* 取色计Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "取色计Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF354B121C3A39F00DD59C5 /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
+		DFF354B321C3A39F00DD59C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFF354B821C3A39F00DD59C5 /* 取色计UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "取色计UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF354BC21C3A39F00DD59C5 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
+		DFF354BE21C3A39F00DD59C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFF3549221C3A39C00DD59C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF354AA21C3A39F00DD59C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF354B521C3A39F00DD59C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFF3548C21C3A39C00DD59C5 = {
+			isa = PBXGroup;
+			children = (
+				DFF3549721C3A39C00DD59C5 /* 取色计 */,
+				DFF354B021C3A39F00DD59C5 /* 取色计Tests */,
+				DFF354BB21C3A39F00DD59C5 /* 取色计UITests */,
+				DFF3549621C3A39C00DD59C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFF3549621C3A39C00DD59C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFF3549521C3A39C00DD59C5 /* 取色计.app */,
+				DFF354AD21C3A39F00DD59C5 /* 取色计Tests.xctest */,
+				DFF354B821C3A39F00DD59C5 /* 取色计UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFF3549721C3A39C00DD59C5 /* 取色计 */ = {
+			isa = PBXGroup;
+			children = (
+				DFF3549821C3A39C00DD59C5 /* AppDelegate.h */,
+				DFF3549921C3A39C00DD59C5 /* AppDelegate.m */,
+				DFF3549B21C3A39C00DD59C5 /* ViewController.h */,
+				DFF3549C21C3A39C00DD59C5 /* ViewController.m */,
+				DFF3549E21C3A39C00DD59C5 /* Main.storyboard */,
+				DFF354A121C3A39F00DD59C5 /* Assets.xcassets */,
+				DFF354A321C3A39F00DD59C5 /* LaunchScreen.storyboard */,
+				DFF354A621C3A39F00DD59C5 /* Info.plist */,
+				DFF354A721C3A39F00DD59C5 /* main.m */,
+			);
+			path = "取色计";
+			sourceTree = "<group>";
+		};
+		DFF354B021C3A39F00DD59C5 /* 取色计Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DFF354B121C3A39F00DD59C5 /* ___Tests.m */,
+				DFF354B321C3A39F00DD59C5 /* Info.plist */,
+			);
+			path = "取色计Tests";
+			sourceTree = "<group>";
+		};
+		DFF354BB21C3A39F00DD59C5 /* 取色计UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFF354BC21C3A39F00DD59C5 /* ___UITests.m */,
+				DFF354BE21C3A39F00DD59C5 /* Info.plist */,
+			);
+			path = "取色计UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFF3549421C3A39C00DD59C5 /* 取色计 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF354C121C3A39F00DD59C5 /* Build configuration list for PBXNativeTarget "取色计" */;
+			buildPhases = (
+				DFF3549121C3A39C00DD59C5 /* Sources */,
+				DFF3549221C3A39C00DD59C5 /* Frameworks */,
+				DFF3549321C3A39C00DD59C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "取色计";
+			productName = "取色计";
+			productReference = DFF3549521C3A39C00DD59C5 /* 取色计.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFF354AC21C3A39F00DD59C5 /* 取色计Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF354C421C3A39F00DD59C5 /* Build configuration list for PBXNativeTarget "取色计Tests" */;
+			buildPhases = (
+				DFF354A921C3A39F00DD59C5 /* Sources */,
+				DFF354AA21C3A39F00DD59C5 /* Frameworks */,
+				DFF354AB21C3A39F00DD59C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFF354AF21C3A39F00DD59C5 /* PBXTargetDependency */,
+			);
+			name = "取色计Tests";
+			productName = "取色计Tests";
+			productReference = DFF354AD21C3A39F00DD59C5 /* 取色计Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFF354B721C3A39F00DD59C5 /* 取色计UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF354C721C3A39F00DD59C5 /* Build configuration list for PBXNativeTarget "取色计UITests" */;
+			buildPhases = (
+				DFF354B421C3A39F00DD59C5 /* Sources */,
+				DFF354B521C3A39F00DD59C5 /* Frameworks */,
+				DFF354B621C3A39F00DD59C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFF354BA21C3A39F00DD59C5 /* PBXTargetDependency */,
+			);
+			name = "取色计UITests";
+			productName = "取色计UITests";
+			productReference = DFF354B821C3A39F00DD59C5 /* 取色计UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFF3548D21C3A39C00DD59C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "陈伟杰";
+				TargetAttributes = {
+					DFF3549421C3A39C00DD59C5 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					DFF354AC21C3A39F00DD59C5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DFF3549421C3A39C00DD59C5;
+					};
+					DFF354B721C3A39F00DD59C5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DFF3549421C3A39C00DD59C5;
+					};
+				};
+			};
+			buildConfigurationList = DFF3549021C3A39C00DD59C5 /* Build configuration list for PBXProject "取色计" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFF3548C21C3A39C00DD59C5;
+			productRefGroup = DFF3549621C3A39C00DD59C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFF3549421C3A39C00DD59C5 /* 取色计 */,
+				DFF354AC21C3A39F00DD59C5 /* 取色计Tests */,
+				DFF354B721C3A39F00DD59C5 /* 取色计UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFF3549321C3A39C00DD59C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF354A521C3A39F00DD59C5 /* LaunchScreen.storyboard in Resources */,
+				DFF354A221C3A39F00DD59C5 /* Assets.xcassets in Resources */,
+				DFF354A021C3A39C00DD59C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF354AB21C3A39F00DD59C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF354B621C3A39F00DD59C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFF3549121C3A39C00DD59C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF3549D21C3A39C00DD59C5 /* ViewController.m in Sources */,
+				DFF354A821C3A39F00DD59C5 /* main.m in Sources */,
+				DFF3549A21C3A39C00DD59C5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF354A921C3A39F00DD59C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF354B221C3A39F00DD59C5 /* ___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF354B421C3A39F00DD59C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF354BD21C3A39F00DD59C5 /* ___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFF354AF21C3A39F00DD59C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFF3549421C3A39C00DD59C5 /* 取色计 */;
+			targetProxy = DFF354AE21C3A39F00DD59C5 /* PBXContainerItemProxy */;
+		};
+		DFF354BA21C3A39F00DD59C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFF3549421C3A39C00DD59C5 /* 取色计 */;
+			targetProxy = DFF354B921C3A39F00DD59C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFF3549E21C3A39C00DD59C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFF3549F21C3A39C00DD59C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFF354A321C3A39F00DD59C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFF354A421C3A39F00DD59C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFF354BF21C3A39F00DD59C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFF354C021C3A39F00DD59C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFF354C221C3A39F00DD59C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4C732G6M6;
+				INFOPLIST_FILE = "取色计/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zonex.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFF354C321C3A39F00DD59C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4C732G6M6;
+				INFOPLIST_FILE = "取色计/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zonex.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFF354C521C3A39F00DD59C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4C732G6M6;
+				INFOPLIST_FILE = "取色计Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zonex.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/取色计.app/取色计";
+			};
+			name = Debug;
+		};
+		DFF354C621C3A39F00DD59C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4C732G6M6;
+				INFOPLIST_FILE = "取色计Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zonex.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/取色计.app/取色计";
+			};
+			name = Release;
+		};
+		DFF354C821C3A39F00DD59C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4C732G6M6;
+				INFOPLIST_FILE = "取色计UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zonex.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "取色计";
+			};
+			name = Debug;
+		};
+		DFF354C921C3A39F00DD59C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4C732G6M6;
+				INFOPLIST_FILE = "取色计UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zonex.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "取色计";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFF3549021C3A39C00DD59C5 /* Build configuration list for PBXProject "取色计" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF354BF21C3A39F00DD59C5 /* Debug */,
+				DFF354C021C3A39F00DD59C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFF354C121C3A39F00DD59C5 /* Build configuration list for PBXNativeTarget "取色计" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF354C221C3A39F00DD59C5 /* Debug */,
+				DFF354C321C3A39F00DD59C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFF354C421C3A39F00DD59C5 /* Build configuration list for PBXNativeTarget "取色计Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF354C521C3A39F00DD59C5 /* Debug */,
+				DFF354C621C3A39F00DD59C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFF354C721C3A39F00DD59C5 /* Build configuration list for PBXNativeTarget "取色计UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF354C821C3A39F00DD59C5 /* Debug */,
+				DFF354C921C3A39F00DD59C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFF3548D21C3A39C00DD59C5 /* Project object */;
+}
